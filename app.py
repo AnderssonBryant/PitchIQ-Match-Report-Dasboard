@@ -152,7 +152,7 @@ with tab5:
     render_transitions(df_events, home_team, away_team, select_matchid)
 
 
-with open("Data\open-data-master\img\SB - Icon Lockup - Colour positive.png", "rb") as f:
+with open("SB - Icon Lockup - Colour positive.png", "rb") as f:
     data = base64.b64encode(f.read()).decode()
 
 st.markdown(

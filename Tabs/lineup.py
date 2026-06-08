@@ -2,12 +2,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-from Module.data_loader import (
-    get_starting_xi,
-    get_events_only,
-)
 from Module.chart import (
-    get_position_abbr,
     plot_lineup,
     plot_pass_network,
     plot_average_positions,

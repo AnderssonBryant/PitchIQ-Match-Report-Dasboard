@@ -1,7 +1,6 @@
 # utils/stats_comparison.py
 import pandas as pd
-from Module.chart import plot_momentum, plot_shot_timeline, plot_xg_story
-from Module.data_loader import get_events_only, get_shots
+from Module.chart import plot_momentum, plot_xg_story
 from Module.metrics import compute_match_stats
 import streamlit as st
 from config import HOME_COLOR, AWAY_COLOR, TEXT_PRIMARY, TEXT_SECONDARY
