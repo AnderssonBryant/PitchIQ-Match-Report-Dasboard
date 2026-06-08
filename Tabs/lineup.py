@@ -200,7 +200,7 @@ def render_lineup(events,xi,home,away,match_row):
                 )
 
                 # Position abbreviation
-                from tabs.lineup import get_position_abbr
+                from Tabs.lineup import get_position_abbr
                 df['pos_abbr'] = df['position_name'].apply(
                     get_position_abbr
                 )
