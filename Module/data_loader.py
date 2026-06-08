@@ -1,6 +1,5 @@
 # utils/data_loader.py
 import streamlit as st
-from statsbombpy import sb
 from mplsoccer import Sbopen
 
 parser = Sbopen()
